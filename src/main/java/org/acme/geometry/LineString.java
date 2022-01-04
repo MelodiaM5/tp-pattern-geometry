@@ -100,6 +100,16 @@ public class LineString extends AbstractGeometry {
 
     }
 
+    @Override
+    public void addListener(GeometryListener listener){
+
+    }
+
+    @Override
+    protected void triggerChange(){
+
+    }
+
     
 
     

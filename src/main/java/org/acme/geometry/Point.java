@@ -82,5 +82,17 @@ public class Point extends AbstractGeometry {
         return wktVisitor.getResult();
 
     }
+
+    @Override
+    public void addListener(GeometryListener listener){
+
+    }
+
+    
+    @Override
+    protected void triggerChange(){
+        
+    }
+    
     
 }
